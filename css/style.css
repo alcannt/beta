@@ -61,6 +61,34 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   padding-left: 0; /* deja el navbar normal */
 }
 
+/* Ajuste general del contenedor */
+.content-box {
+  max-width: 900px;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Ajustes RESPONSIVE para móviles */
+@media (max-width: 768px) {
+  .carousel-caption h1 {
+    font-size: 26px; /* Más chico que display-3 normal */
+  }
+
+  .carousel-caption h4 {
+    font-size: 16px;
+  }
+
+  .carousel-caption a.btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .content-box {
+    max-width: 100%;
+    padding: 0.5rem;
+  }
+}
 
 
 body {
